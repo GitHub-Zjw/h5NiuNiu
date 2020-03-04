@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BetRecordsItemSkin" width="365" height="16" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="17099e2343b" ></w:Config>
+	<e:Label id="betNum_lab" text="1" y="2" size="12" horizontalCenter="0"/>
+	<e:Label id="TorF_lab" text="Label" y="2" size="12" horizontalCenter="133"/>
+	<e:Image id="color_img" width="16" height="16" x="40.33" source="hongSheng_png" y="0"/>
+</e:Skin>

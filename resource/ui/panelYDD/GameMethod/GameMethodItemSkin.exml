@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameMethodItemSkin" width="365" height="16" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="17099e2343b" ></w:Config>
+	<e:Label id="winner_lab" text="Label" y="2" size="12" horizontalCenter="-135"/>
+	<e:Label id="regionType_lab" text="Label" y="2" size="12" horizontalCenter="133"/>
+	<e:Label id="moneyNum_lab" text="Label" y="2" size="12" horizontalCenter="-3"/>
+
+</e:Skin>

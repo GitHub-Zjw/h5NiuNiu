@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PrizeInfoPanelSkin" width="395" height="286" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1709fa0a307" ></w:Config>
+	<e:Image x="2" y="4" source="wfxq_png"/>
+	<e:Button id="close_btn" label="" x="368" y="-11">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Scroller id="scr" width="278" height="186" x="36" y="56">
+		<e:Group width="278">
+			<e:Label id="descrotion_lab" text="" size="10" textAlign="left" scaleX="1" scaleY="1" width="278"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

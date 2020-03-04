@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameMethodPanelSkin" width="417" height="188" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1709fa0a307" ></w:Config>
+	<e:Image x="2" y="4" source="jbbg_png"/>
+	<e:Button id="close_btn" label="" x="392" y="-17">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="今日大赢家" y="35" anchorOffsetX="0" anchorOffsetY="0" size="12" textColor="0xB676D7" horizontalCenter="-150.5"/>
+	<e:Label text="牌型" x="179" y="35" anchorOffsetX="0" anchorOffsetY="0" size="12" textColor="0xB676D7"/>
+	<e:Label text="奖金(HDAG)" y="35" anchorOffsetX="0" anchorOffsetY="0" size="12" textColor="0xB676D7" horizontalCenter="117.5"/>
+	<e:Scroller id="details_scl" width="365" height="110" x="12" y="63" anchorOffsetY="0">
+		<e:List id="details_list" anchorOffsetY="0" height="110" itemRendererSkinName="GameMethodItemSkin">
+		<e:layout>
+			<e:VerticalLayout paddingTop="5" gap="11"/>
+		</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object null=""/>
+					<e:Object null=""/>
+					<e:Object null=""/>
+					<e:Object null=""/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

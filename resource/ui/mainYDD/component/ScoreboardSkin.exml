@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ScoreboardSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="236" height="112">
+	<w:Config id="1708571970e" ></w:Config>
+	<e:Image source="prefab_png" alpha="0.8" y="-262.78" x="-161.33" width="812" height="375" visible="false"/>
+	<e:Image source="bghuizuo_png"/>
+	<e:Image x="5" y="41" source="blackPoint_png"/>
+	<e:Image x="5" y="5" source="redPoint_png"/>
+	<e:Image x="5" y="78" source="otherPoint_png"/>
+	<e:Label id="wpRed_lab" text="0%" y="28.2" textColor="0xd59464" size="7" horizontalCenter="-102"/>
+	<e:Label id="wpBlack_lab" text="0%" y="67" textColor="0xD59464" size="7" horizontalCenter="-102"/>
+	<e:Label id="wpOther_lab" text="0%" y="101" textColor="0xD59464" size="7" horizontalCenter="-102"/>
+	<e:Group id="board_group" width="200.34" height="99.8" x="30.66" y="6" anchorOffsetY="0" anchorOffsetX="0">
+		<e:layout>
+			<e:TileLayout orientation="columns" verticalGap="4.5" requestedRowCount="6" requestedColumnCount="10" paddingLeft="4.3" paddingTop="4.2" horizontalGap="8.1"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

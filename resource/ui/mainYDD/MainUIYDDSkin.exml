@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainUIYDDSkin" width="812" height="375" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="17075f09754" ></w:Config>
+	<e:Image source="prefab_png" left="0" right="0" top="0" bottom="0" alpha="0.8" visible="false"/>
+	<e:Group x="0" y="0" width="812" height="375">
+		<e:Image source="zhuoZi_png" x="0" y="0"/>
+		<e:Image x="403.68" bottom="1" source="bghuiyou_png"/>
+		<e:Image x="412" y="352" source="textBg_png" alpha="0.5"/>
+		<e:Image x="413" source="qian_png" y="273"/>
+		<e:Image x="413" y="353" source="playerId_png"/>
+		<e:Image x="413" y="353" source="playerId_png"/>
+		<e:Label text="投注金额" x="436" y="274" textColor="0xa09eac" size="11.3" fontFamily="Microsoft YaHei"/>
+		<e:Label text="投注详情" x="265" textColor="0xdf8cfb" size="13" top="6"/>
+		<e:Label text="投注记录" x="363" textColor="0xDF8CFB" size="13" top="6"/>
+		<e:Label id="moneyNumB_lab" text="0" y="121.34" size="10.6" horizontalCenter="-203" textColor="0xfac33f"/>
+		<e:Label id="moneyNumR_lab" text="0" y="121.34" size="10.6" textColor="0xFAC33F" horizontalCenter="137"/>
+		<e:Label id="moneyNumO_lab" text="0" y="168.34" size="10.6" textColor="0xFAC33F" horizontalCenter="-30"/>
+		<e:Label id="myHdag_lab" text="0 HDAG" y="290" size="8.67" textColor="0xFAC33F" right="331"/>
+		<e:Label id="myHdag_lab0" text="0" y="356" size="8.67" textColor="0xFAC33F" x="428"/>
+		<e:Image id="blackMan_img" x="97.02" source="zuoRen_png" y="27"/>
+		<e:Image id="redMan_img" source="youRen_png" x="437" y="28"/>
+		<e:Group x="181" y="37.3">
+			<e:Image x="0" y="0.5" source="xu2_png"/>
+			<e:Image x="50" y="0" source="xu2_png"/>
+			<e:Image x="98.5" y="0.5" source="xu2_png"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="left" gap="10"/>
+			</e:layout>
+		</e:Group>
+		<e:Group x="497" y="37.3">
+			<e:Image x="0" y="0.5" source="xu1_png"/>
+			<e:Image x="50" y="0" source="xu1_png"/>
+			<e:Image x="98.5" y="0.5" source="xu1_png"/>
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" gap="10"/>
+			</e:layout>
+		</e:Group>
+		<e:Image x="370" source="VS-1_png" y="41"/>
+		<e:Image id="vsManRed_img" source="groupVS2_png" x="375" y="99" visible="false"/>
+		<e:Image id="vsManBlack_img" x="158" source="groupVS1_png" y="96" visible="false"/>
+		<ns1:Card id="card1" y="34" skinName="CardSkin" anchorOffsetX="25" anchorOffsetY="0" x="200" visible="false"/>
+		<ns1:Card y="34" skinName="CardSkin" anchorOffsetX="25" anchorOffsetY="0" id="card2" x="250" visible="false"/>
+		<ns1:Card y="34" skinName="CardSkin" anchorOffsetX="25" anchorOffsetY="0" id="card3" x="300" visible="false"/>
+		<ns1:Card y="34" skinName="CardSkin" anchorOffsetX="25" anchorOffsetY="0" id="card4" x="517" visible="false"/>
+		<ns1:Card y="34" skinName="CardSkin" anchorOffsetX="25" anchorOffsetY="0" id="card5" x="567" visible="false"/>
+		<ns1:Card y="34" skinName="CardSkin" anchorOffsetX="25" anchorOffsetY="0" id="card6" x="617" visible="false"/>
+		<ns1:Scoreboard id="scoreBoard" x="166" skinName="ScoreboardSkin" bottom="0"/>
+		<e:Group x="415" y="310">
+			<ns1:BallBtn id="ball0_btn" label="" x="0" y="0" skinName="BallBtnSkin" icon="0.1_png">
+			</ns1:BallBtn>
+			<ns1:BallBtn id="ball1_btn" label="" x="10" y="10" icon="1_png" skinName="BallBtnSkin">
+			</ns1:BallBtn>
+			<ns1:BallBtn id="ball2_btn" label="" x="20" y="20" skinName="BallBtnSkin" icon="5_png">
+			</ns1:BallBtn>
+			<ns1:BallBtn id="ball3_btn" label="" x="30" y="30" skinName="BallBtnSkin" icon="10_png">
+			</ns1:BallBtn>
+			<ns1:BallBtn id="ball4_btn" label="" x="40" y="40" skinName="BallBtnSkin" icon="50_png">
+			</ns1:BallBtn>
+			<ns1:BallBtn id="ball5_btn" label="" x="50" y="50" skinName="BallBtnSkin" icon="100_png">
+			</ns1:BallBtn>
+			<e:layout>
+				<e:HorizontalLayout gap="5"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="bets_btn" label="" x="573" y="274" icon="touzhu_png">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="touzhu_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="withdraw_btn" label="" x="505" y="274" icon="touzhu_png">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="cehui_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="betDetails_btn" label="投注详情" x="237" anchorOffsetX="0" width="101" anchorOffsetY="0" height="27" top="0" alpha="0">
+		</e:Button>
+		<e:Button id="betRecord_btn" label="投注详情" x="340" anchorOffsetX="0" width="98" anchorOffsetY="0" height="27" top="0" alpha="0" y="10"/>
+		<e:Button id="gameMethod_btn" label="" x="460" y="3">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="jiangbei_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="prizeInfo_btn" label="" x="525" y="5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="youxi_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<ns1:Clock id="clock" y="97.34" skinName="ClockSkin" horizontalCenter="-3" visible="false"/>
+		<e:Button id="mengBan_btn" label="" x="403" y="262" icon="mengBan_png" anchorOffsetY="0" height="114" anchorOffsetX="0" width="244" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mengBan_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<ns1:SelectCarding id="selectCardCom" skinName="SelectCardingSkin" horizontalCenter="0" verticalCenter="0" visible="false"/>
+		<e:Image id="blackResult_img" x="169" source="jinHua_png" top="84" alpha="0"/>
+		<e:Image id="redResult_img" x="485" top="84" alpha="0" source="sanPai_png"/>
+		<ns1:RegionRed id="regionRed" x="395" y="33" skinName="RegionRedSkin"/>
+		<ns1:RegionBlack id="regionBlack" x="83.67" y="21.7" skinName="RegionBlackSkin" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" touchChildren="false"/>
+		<ns1:RegionOther id="regionOther" x="255" y="148" skinName="RegionOtherSkin"/>
+		<e:Button id="regionBlack_btn" label="" x="104" y="121" anchorOffsetX="0" width="293" anchorOffsetY="0" height="147" alpha="0"/>
+		<e:Button id="regionRed_btn" label="" x="406" y="122" anchorOffsetX="0" width="297" anchorOffsetY="0" height="147" alpha="0"/>
+		<e:Button id="regionOther_btn" label="" x="304" y="188" anchorOffsetX="0" width="192" anchorOffsetY="0" height="74" alpha="0"/>
+	</e:Group>
+	<e:Button id="begin_btn" label="开始动画" y="0" left="-3"/>
+	<e:Button id="setCard_btn" label="重置数据" y="62.34" left="-3"/>
+	<e:Button id="cardAmi_btn" label="发牌" y="124" left="-3"/>
+	<e:Button id="ballAmi_btn" label="发球" y="188" left="-3"/>
+</e:Skin>

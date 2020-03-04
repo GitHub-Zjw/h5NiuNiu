@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="BallBtnSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" width="32" height="33">
+	<w:Declarations>
+		<tween:TweenGroup id="line">
+			<tween:TweenItem target="{line_img}">
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object scaleY="{1.3}" scaleX="{1.3}" alpha="{0.2}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+    <e:Image scale9Grid="1,3,8,8" alpha.disabled="0.5"
+            
+             source.down="button_down_png" source="0.1_png" includeIn="up,disabled"/>
+    <e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8"
+             size="20"
+             textColor="0xFFFFFF" verticalAlign="middle" textAlign="center"/>
+    <e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="line_img" scale9Grid="1,3,8,8" source="goldenLain_png" anchorOffsetX="15" anchorOffsetY="15" x="16" y="16.25" width="30" height="30" visible="false"/>
+
+	<w:Config id="1707f1bb835" ></w:Config>
+</e:Skin>

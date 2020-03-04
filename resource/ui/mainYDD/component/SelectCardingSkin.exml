@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SelectCardingSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="336" height="45">
+	<w:Config id="1708abd8552" ></w:Config>
+	<e:Image source="tipZiBg_png"/>
+	<e:Group id="zi_Group" x="86" y="12">
+		<e:Image scaleX="1" scaleY="1" source="ziHa_png" x="0" y="21" anchorOffsetY="21"/>
+		<e:Image scaleX="1" scaleY="1" x="27" source="ziXi_png" y="21" anchorOffsetY="21"/>
+		<e:Image scaleX="1" scaleY="1" x="54" source="ziXuan_png" y="21" anchorOffsetY="21"/>
+		<e:Image scaleX="1" scaleY="1" x="81" source="ziPai_png" y="21" anchorOffsetY="21"/>
+		<e:Image scaleX="1" scaleY="1" x="108" source="ziZhong_png" y="21" anchorOffsetY="21"/>
+		<e:Image scaleX="1" scaleY="1" x="135" source="ziDian_png" y="21" anchorOffsetY="21"/>
+		<e:Image scaleX="1" scaleY="1" x="147" source="ziDian_png" y="21" anchorOffsetY="21"/>
+		<e:Image scaleX="1" scaleY="1" x="159" source="ziDian_png" y="21" anchorOffsetY="21"/>
+	</e:Group>
+</e:Skin>

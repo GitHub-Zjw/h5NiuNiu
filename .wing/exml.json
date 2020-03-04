@@ -1,0 +1,27 @@
+{
+    "global": {
+        "globalRulerEnable": false,
+        "globalAdsorbEnable": false,
+        "globalAutoLayerMarkEnable": false
+    },
+    "1708a8d5965": {
+        "path": "core\\view\\panel\\panel\\StopBetPanel.ts",
+        "class": "StopBetPanel",
+        "parentPath": ""
+    },
+    "1708abd8552": {
+        "path": "core\\view\\mainYDD\\component\\SelectCarding.ts",
+        "class": "SelectCarding",
+        "parentPath": ""
+    },
+    "1709a42faa8": {
+        "path": "..\\resource\\ui\\panelYDD\\BetDetails\\233.ts",
+        "class": "233",
+        "parentPath": "resource/eui_skins/BetDetailsItem.exml"
+    },
+    "1709fa0a307": {
+        "path": "core\\view\\panelYDD\\panle\\GameMethod\\GameMethodPanel.ts",
+        "class": "GameMethodPanel",
+        "parentPath": ""
+    }
+}

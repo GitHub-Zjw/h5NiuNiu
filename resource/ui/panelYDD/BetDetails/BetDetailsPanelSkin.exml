@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BetDetailsPanelSkin" currentState="betDetail" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="419" height="261" states="betDetail,betRecord" >
+	<w:Config id="17099d6a2c4" ></w:Config>
+	<e:Image x="-199" y="-51" source="红黑大战 -金花 - 投注详情弹窗_png" width="812" height="375" visible.betRecord="false" visible="false"/>
+	<e:Image source="tzxq_png" x="2" y="15"/>
+	<e:Button id="close_btn" label="" x="392" y="14">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="投注详情" x="160" y="21" size="17" text.betRecord="投注记录"/>
+	<e:Label text="玩家" x="46.33" y="57.34" anchorOffsetX="0" anchorOffsetY="0" size="12" textColor="0xb676d7" text.betRecord="区域"/>
+	<e:Label text="区域" x="179" y="57.34" anchorOffsetX="0" anchorOffsetY="0" size="12" textColor="0xB676D7" text.betRecord="投注"/>
+	<e:Label text="投注" x="314.33" y="58.01" anchorOffsetX="0" anchorOffsetY="0" size="12" textColor="0xB676D7" text.betRecord="输赢"/>
+	<e:Scroller id="details_scl" width="365" height="176" x="12" y="74" >
+		<e:List id="details_list" itemRendererSkinName="BetDetailsItemSkin" itemRendererSkinName.betRecord="BetRecordsItemSkin">
+			<e:layout>
+				<e:VerticalLayout paddingTop="5" gap="11"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>
